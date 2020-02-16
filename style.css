@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Ubuntu&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', 'century gothic', sans-serif;
+}
+
+span#logo {
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 8%;
+    position: fixed;
+    background-color: white;
+    width: 100vw;
+    border-bottom: 0.8px solid #ddd;
+}
+
+header ul li {
+    display: inline-block;
+    color: #222;
+    padding: 5px;
+    transition: all 0.4s ease-in;
+} 
+
+header ul li:hover {
+    color: #e7a515;
+    cursor: pointer;
+}
+
+header button {
+    padding: 10px 15px;
+    border-radius: 50px;
+    border: none;
+    background-color: #e7a515;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+
+header button:hover {
+    background-color: #be8f27;
+}
+
+/* For the Main Element */
+
+main {
+    padding-top: 10vh;
+}
+
+/* Container grid style below */
+
+.container-grid {
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(300px, 1fr));
+    grid-template-rows: repeat(9, minmax(200px, 1fr));
+    height: 100vh;
+    grid-gap: 10px;
+    padding: 30px 8%;
+}
+
+.modal-items {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2px 10px;
+    font-size: small;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.modal-items:nth-child(1) {
+    background-color: tomato;
+}
+
+.modal-items:nth-child(2) {
+    background-color: #519b82;
+}
+
+.modal-items:nth-child(3) {
+    background-color: #4c9e5e;
+}
+
+.modal-items:nth-child(4) {
+    background-color: #814a8b;
+}
+
+.modal-items:nth-child(5) {
+    background-color: #9b516d;
+}
+
+.modal-items:nth-child(6) {
+    background-color: #9b7b51;
+}
+
+.modal-items:nth-child(7) {
+    background-color: #52519b;
+}
+
+.modal-items:nth-child(8) {
+    background-color: #51749b;
+}
+
+.modal-items:nth-child(9) {
+    background-color: #46534f;
+}
+
+/* Footer styles below */
+
+footer {
+    padding: 10px 8%;
+    text-align: center;
+    border-top: 0.8px solid #ddd;
+    background-color: white;
+    position: relative;
+    bottom: 0vh;
+}
+
+footer ul li {
+    display: inline-block;
+    padding: 5px;
+    transition: all 0.4s ease-in;
+}
+
+footer ul li:hover {
+    color: #e7a515;
+    cursor: pointer;
+}
+
+/* for smartphones below 480px width */
+@media screen and (max-width: 480px) {
+    .social {
+        display: none;
+    }
+
+    footer {
+        position: relative;
+        bottom: -162vh;
+    }
+}
+@media screen and (max-width: 375px) {
+    .social {
+        display: none;
+    }
+
+    footer {
+        position: relative;
+        bottom: -135vh;
+    }
+}

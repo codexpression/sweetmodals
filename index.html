@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modals</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./modal.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="./fontawesome/css/all.min.css"> -->
+</head>
+<body>
+
+    <header>
+        <ul class="social">
+            <li><i class="fab fa-facebook-f"></i></li>
+            <li><i class="fab fa-twitter"></i></li>
+            <li><i class="fab fa-github"></i></li>
+        </ul>
+        <span id="logo">Sweet Modals</span>
+        <button>View docs</button>
+    </header>
+    <main>
+        <div class="container-grid">
+            <div class="modal-items" id="modal-top">
+                <h2>Top Modal</h2>
+            </div>
+            <div class="modal-items" id="modal-right">
+                <h2>Right Modal</h2>
+            </div>
+            <div class="modal-items" id="modal-left">
+                <h2>Left Modal</h2>
+            </div>
+            <div class="modal-items" id="modal-bottom">
+                <h2>Bottom Modal</h2>
+            </div>
+            <div class="modal-items" id="modal-center">
+                <h2>Center Modal</h2>
+            </div>
+            <div class="modal-items" id="modal-bottom-right">
+                <h2>Bottom-right Modal</h2>
+            </div>
+            <div class="modal-items" id="modal-bottom-left">
+                <h2>Bottom-left Modal</h2>
+            </div>
+            <div class="modal-items" id="modal-lightbox">
+                <h2>Lightbox Modal</h2>
+            </div>
+            <div class="modal-items" id="modal-all">
+                <h2>All Modals</h2>
+            </div>
+        </div>
+    </main>
+    <div id="modal-content">
+        <div id="top-modal">
+            <div class="top-modal-content">
+                <div class="modal-header">
+                    <h3>Header</h3>
+                    <button onclick="document.querySelector('#top-modal').style.display = 'none'"><i class="fa fa-times"></i></button>
+                </div>
+                <section>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic ex iste aspernatur perferendis molestias ad! Aliquam sed nobis similique repellendus obcaecati, necessitatibus dolorem ullam temporibus, inventore, adipisci eaque suscipit praesentium!</p>
+                </section>
+            </div>
+        </div>
+        <div id="right-modal">
+            <div class="right-modal-content">
+                <div class="modal-header">
+                    <h3>Header</h3>
+                    <button onclick="document.querySelector('#right-modal').style.display = 'none'"><i class="fa fa-times"></i></button>
+                </div>
+                <section>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic ex iste aspernatur perferendis molestias ad! Aliquam sed nobis similique repellendus obcaecati, necessitatibus dolorem ullam temporibus, inventore, adipisci eaque suscipit praesentium!</p>
+                </section>
+            </div>
+        </div>
+        <div id="left-modal">
+            <div class="left-modal-content">
+                <div class="modal-header">
+                    <h3>Header</h3>
+                    <button onclick="document.querySelector('#left-modal').style.display = 'none'"><i class="fa fa-times"></i></button>
+                </div>
+                <section>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic ex iste aspernatur perferendis molestias ad! Aliquam sed nobis similique repellendus obcaecati, necessitatibus dolorem ullam temporibus, inventore, adipisci eaque suscipit praesentium!</p>
+                </section>
+            </div>
+        </div>
+        <div id="bottom-modal">
+            <div class="bottom-modal-content">
+                <div class="modal-header">
+                    <h3>Header</h3>
+                    <button onclick="document.querySelector('#bottom-modal').style.display = 'none'"><i class="fa fa-times"></i></button>
+                </div>
+                <section>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic ex iste aspernatur perferendis molestias ad! Aliquam sed nobis similique repellendus obcaecati, necessitatibus dolorem ullam temporibus, inventore, adipisci eaque suscipit praesentium!</p>
+                </section>
+            </div>
+        </div>
+        <div id="center-modal">
+            <div class="center-modal-content">
+                <div class="modal-header">
+                    <h3>Header</h3>
+                    <button onclick="document.querySelector('#center-modal').style.display = 'none'"><i class="fa fa-times"></i></button>
+                </div>
+                <section>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic ex iste aspernatur perferendis molestias ad! Aliquam sed nobis similique repellendus obcaecati, necessitatibus dolorem ullam temporibus, inventore, adipisci eaque suscipit praesentium!</p>
+                </section>
+            </div>
+        </div>
+        <div id="bottom-right-modal">
+            <div class="bottom-right-modal-content">
+                <div class="modal-header">
+                    <h3>Header</h3>
+                    <button onclick="document.querySelector('#bottom-right-modal').style.display = 'none'"><i class="fa fa-times"></i></button>
+                </div>
+                <section>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic ex iste aspernatur perferendis molestias ad! Aliquam sed nobis similique repellendus obcaecati, necessitatibus dolorem ullam temporibus, inventore, adipisci eaque suscipit praesentium!</p>
+                </section>
+            </div>
+        </div>
+        <div id="center-modal">
+            <div class="center-modal-content">
+                <div class="modal-header">
+                    <h3>Header</h3>
+                    <button onclick="document.querySelector('#center-modal').style.display = 'none'"><i class="fa fa-times"></i></button>
+                </div>
+                <section>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic ex iste aspernatur perferendis molestias ad! Aliquam sed nobis similique repellendus obcaecati, necessitatibus dolorem ullam temporibus, inventore, adipisci eaque suscipit praesentium!</p>
+                </section>
+            </div>
+        </div>
+        <div id="center-modal">
+            <div class="center-modal-content">
+                <div class="modal-header">
+                    <h3>Header</h3>
+                    <button onclick="document.querySelector('#center-modal').style.display = 'none'"><i class="fa fa-times"></i></button>
+                </div>
+                <section>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic ex iste aspernatur perferendis molestias ad! Aliquam sed nobis similique repellendus obcaecati, necessitatibus dolorem ullam temporibus, inventore, adipisci eaque suscipit praesentium!</p>
+                </section>
+            </div>
+        </div>
+        <div id="center-modal">
+            <div class="center-modal-content">
+                <div class="modal-header">
+                    <h3>Header</h3>
+                    <button onclick="document.querySelector('#center-modal').style.display = 'none'"><i class="fa fa-times"></i></button>
+                </div>
+                <section>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic ex iste aspernatur perferendis molestias ad! Aliquam sed nobis similique repellendus obcaecati, necessitatibus dolorem ullam temporibus, inventore, adipisci eaque suscipit praesentium!</p>
+                </section>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <ul id="social-links-footer">
+            <li><i class="fab fa-facebook-f"></i></li>
+            <li><i class="fab fa-twitter"></i></li>
+            <li><i class="fab fa-github"></i></li>
+        </ul>
+        <p>&copy; 2020. All rights reserved</p>
+    </footer>
+    
+    <script src="./app.js"></script>
+    <!-- <script src="./fontawesome/js/all.min.js"></script> -->
+</body>
+</html>
